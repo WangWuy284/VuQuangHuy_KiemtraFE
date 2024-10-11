@@ -1,0 +1,138 @@
+﻿body {
+    margin: 0px; /* Đặt khoảng cách bên ngoài của body là 0 */
+    background-color: white; /* Thêm màu nền trắng cho body */
+}
+
+#top1 {
+    height: 50px; /* Chiều cao của phần top1 */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+}
+
+#top_header {
+    height: 110px; /* Chiều cao của header */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+}
+
+#Logo1 {
+    height: auto; /* Chiều cao tự động để giữ tỷ lệ */
+    width: 10vw; /* Chiều rộng là 10% chiều rộng khung nhìn */
+    max-width: 150px; /* Chiều rộng tối đa 150px */
+    min-width: 50px; /* Chiều rộng tối thiểu 50px */
+    margin-left: 2vw; /* Căn nhích sang phải */
+    margin-right: 1vw; /* Căn giữa */
+    display: flex; /* Sử dụng flexbox để căn giữa các phần tử */
+    float: left; /* Căn trái */
+    position: relative; /* Để dễ dàng căn giữa nội dung bên trong */
+}
+
+    #Logo1 img {
+        width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của div */
+        height: auto; /* Giữ tỷ lệ hình ảnh */
+        max-height: 110px; /* Giới hạn chiều cao tối đa của logo */
+        min-height: 50px; /* Giới hạn chiều cao tối thiểu của logo */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+    }
+
+#Div_Top_searchbar {
+    height: 50px; /* Chiều cao của thanh tìm kiếm */
+    width: 70vw; /* Chiếm 70% chiều rộng khung nhìn */
+    float: left; /* Căn trái */
+    margin-left: 1vw; /* Căn nhích sang phải */
+    min-width: auto; /* Đảm bảo kích thước nhỏ nhất khi thu hẹp */
+    margin-right: auto; /* Tự động căn giữa */
+}
+
+#Div_UserArea1, #Div_UserArea2 {
+    height: 50px; /* Chiều cao của các khu vực người dùng */
+    width: 15.5vw; /* Chiều rộng các khu vực người dùng */
+    float: left; /* Cho phép các khu vực này xếp bên nhau */
+    margin-right: 10px; /* Khoảng cách bên phải */
+    min-width: auto; /* Đảm bảo kích thước nhỏ nhất khi thu hẹp */
+}
+
+#Div_DeliverTo {
+    height: 50px; /* Chiều cao khu vực giao hàng */
+    width: 5vw; /* Chiều rộng khu vực giao hàng */
+    float: left; /* Căn trái */
+    min-width: auto; /* Đảm bảo kích thước nhỏ nhất khi thu hẹp */
+}
+
+#Div_Suggestion_Area {
+    height: 50px; /* Chiều cao khu vực gợi ý */
+    width: 70vw; /* Chiếm 70% chiều rộng khung nhìn */
+    float: left; /* Căn trái */
+    margin-left: 1vw; /* Căn nhích sang phải */
+    min-width: auto; /* Đảm bảo kích thước nhỏ nhất khi thu hẹp */
+    margin-right: auto; /* Tự động căn giữa */
+}
+
+#Div_BelowHeader {
+    margin-top: 5px; /* Khoảng cách bên trên */
+    height: 20px; /* Chiều cao khu vực dưới tiêu đề */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    float: left; /* Căn trái */
+    margin-left: 2vw; /* Căn nhích sang phải */
+    margin-bottom: 5px; /* Khoảng cách bên dưới */
+    background-color: white; /* Màu nền trắng cho khu vực dưới tiêu đề */
+}
+
+#Div_Nav {
+    margin-top: 5px; /* Khoảng cách bên trên */
+    height: 300px; /* Chiều cao khu vực điều hướng */
+    width: 10%; /* Chiếm 10% chiều rộng khung nhìn */
+    float: left; /* Căn trái */
+    margin-left: 2vw; /* Căn nhích sang phải */
+    margin-bottom: 5px; /* Khoảng cách bên dưới */
+}
+
+#Div_BodyContainer {
+    margin-top: 1px; /* Khoảng cách bên trên */
+    height: 1600px; /* Chiều cao khu vực thân chính */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+}
+
+#Div_BodyHeader {
+    margin-top: 5px; /* Khoảng cách bên trên */
+    height: 85px; /* Chiều cao khu vực đầu thân */
+    width: 85%; /* Chiếm 85% chiều rộng khung nhìn */
+    float: left; /* Căn trái */
+    margin-left: 2vw; /* Căn nhích sang phải */
+    margin-bottom: 5px; /* Khoảng cách bên dưới */
+    background-color: white; /* Màu nền trắng cho khu vực đầu thân */
+}
+
+#Div_SliderBody {
+    margin-top: 5px; /* Khoảng cách bên trên */
+    height: 215px; /* Chiều cao của khu vực slider */
+    width: 85%; /* Chiếm 85% chiều rộng khung nhìn */
+    float: left; /* Căn trái */
+    margin-left: 2vw; /* Căn nhích sang phải */
+    margin-bottom: 5px; /* Khoảng cách bên dưới */
+    background-color: white; /* Màu nền trắng cho khu vực slider */
+}
+
+/* Các nút trong khu vực dưới tiêu đề */
+#Under_header button {
+    background-color: white; /* Nền trắng cho các nút trong khu vực dưới tiêu đề */
+    border: none; /* Bỏ viền cho nút */
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+}
+#products {
+    padding: 20px;
+}
+
+#product-grid {
+    display: flex;
+    gap: 20px;
+}
+
+#product {
+    border: 1px solid gray; 
+    padding: 10px;
+    text-align: center;
+}
+#product img {
+   max-width: 100px;
+   height: auto;
+    }
